@@ -1,12 +1,21 @@
 {
-  "app_name": "Letus", //Name of the app
-  "description": "A social media app focused on meaningful social interactions", // One line description
-  "hidden": "true", // Can be "true" or "false". If true, this app won't show up in Marketplace.
+  "app_name": "Letus - A Real Social Media App", //Name of the app
+  "description": "A social media app focused on meaningful social interactions using RedisGraph", // One line description
   "type": "Full App", //Can be "Building Block" or "Full App"
   "contributed_by": "Community", // Can be "Redis Labs" or "Community" or "Partner"
-  "repo_url": "https://github.com/withjam/letus", //This is the Gitub Repo's URL.
+  "repo_url": "https://github.com/redis-developer/letus", //This is the Gitub Repo's URL.
   "download_url": "", //This is a direct link to the Github's download button so people can download it directly from the Marketplace
-  "quick_deploy": "false", //"frue" if the project has Heroku, Vercel, Google deploy buttons
+  
+  "quick_deploy": "true",
+  "deploy_buttons": [
+        {
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/letus.git" 
+        },
+        {
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/letus.git" 
+        }
+    ],
+ 
   "language": ["JavaScript"], // Backend technologies: "JavaScript", "Java", "Python", "Go", "C#", "Ruby", "PHP", etc.
   "redis_commands": [
     "MATCH",
@@ -33,5 +42,5 @@
   "youtube_url": "https://www.youtube.com/watch?v=FmgdHGFYj3U", //Provide a Youtube link to your app's video
   "special_tags": ["Hackathon"], // "Hackathon", "Paid", or any event names.
   "verticals": ["Technology"], // Can be: "Healthcare", "Financial", "Tourism", "Retail", "Oil & Gas", "Manufacturing", "Technology","Education", "Construction"
-  "markdown": "https://raw.githubusercontent.com/withjam/letus/main/README.md" // Link to the RAW Markdown.
+  "markdown": "https://raw.githubusercontent.com/redis-developer/letus/main/README.md" // Link to the RAW Markdown.
 }
