@@ -16,7 +16,6 @@
             "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/letus.git" 
         }
     ],
- 
   "language": ["JavaScript"], 
   "redis_commands": [
     "MATCH",
@@ -39,7 +38,7 @@
     "https://github.com/withjam/letus/raw/main/screens/letus_cropped.jpg",
     "https://github.com/withjam/letus/raw/main/screens/posts.png",
     "https://github.com/withjam/letus/raw/main/screens/ignoreSettings4.png"
-  ], // Provide any image urls in an array.
+  ], 
   "youtube_url": "https://www.youtube.com/watch?v=FmgdHGFYj3U", 
   "special_tags": ["Hackathon"], 
   "verticals": ["Technology"], 
