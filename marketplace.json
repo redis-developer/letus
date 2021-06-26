@@ -5,7 +5,7 @@
   "type": "Full App", 
   "contributed_by": "Community", 
   "repo_url": "https://github.com/redis-developer/letus", 
-  "download_url": "", 
+  "download_url": "https://github.com/redis-developer/letus/archive/refs/heads/main.zip", 
   "quick_deploy": "true",
   "deploy_buttons": [
         {
