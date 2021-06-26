@@ -1,11 +1,11 @@
 {
-  "app_name": "Letus - A Real Social Media App", //Name of the app
-  "description": "A social media app focused on meaningful social interactions using RedisGraph", // One line description
+  "app_name": "Letus - A Real Social Media App", 
+  "description": "A social media app focused on meaningful social interactions using RedisGraph", 
   "rank": "51",
-  "type": "Full App", //Can be "Building Block" or "Full App"
-  "contributed_by": "Community", // Can be "Redis Labs" or "Community" or "Partner"
-  "repo_url": "https://github.com/redis-developer/letus", //This is the Gitub Repo's URL.
-  "download_url": "", //This is a direct link to the Github's download button so people can download it directly from the Marketplace
+  "type": "Full App", 
+  "contributed_by": "Community", 
+  "repo_url": "https://github.com/redis-developer/letus", 
+  "download_url": "", 
   "quick_deploy": "true",
   "deploy_buttons": [
         {
@@ -16,7 +16,7 @@
         }
     ],
  
-  "language": ["JavaScript"], // Backend technologies: "JavaScript", "Java", "Python", "Go", "C#", "Ruby", "PHP", etc.
+  "language": ["JavaScript"], 
   "redis_commands": [
     "MATCH",
     "MERGE",
@@ -31,16 +31,16 @@
     "CREATE",
     "UNWIND",
     "WITH"
-  ], // Enter all the Redis commands
-  "redis_features": ["cloud"], // Enter any core Redis feature or leave it blank.
-  "redis_modules": ["RedisGraph"], //Value can be one or more of "RediJSON", "", "RedisTimeseries", "RedisAI"  "RedisGears" or "RedisGraph" listed in an array.
+  ], 
+  "redis_features": ["cloud"], 
+  "redis_modules": ["RedisGraph"], 
   "app_image_urls": [
     "https://github.com/withjam/letus/raw/main/screens/letus_cropped.jpg",
     "https://github.com/withjam/letus/raw/main/screens/posts.png",
     "https://github.com/withjam/letus/raw/main/screens/ignoreSettings4.png"
   ], // Provide any image urls in an array.
-  "youtube_url": "https://www.youtube.com/watch?v=FmgdHGFYj3U", //Provide a Youtube link to your app's video
-  "special_tags": ["Hackathon"], // "Hackathon", "Paid", or any event names.
-  "verticals": ["Technology"], // Can be: "Healthcare", "Financial", "Tourism", "Retail", "Oil & Gas", "Manufacturing", "Technology","Education", "Construction"
-  "markdown": "https://raw.githubusercontent.com/redis-developer/letus/main/README.md" // Link to the RAW Markdown.
+  "youtube_url": "https://www.youtube.com/watch?v=FmgdHGFYj3U", 
+  "special_tags": ["Hackathon"], 
+  "verticals": ["Technology"], 
+  "markdown": "https://raw.githubusercontent.com/redis-developer/letus/main/README.md" 
 }
