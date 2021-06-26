@@ -1,6 +1,7 @@
 {
   "app_name": "Letus - A Real Social Media App", //Name of the app
   "description": "A social media app focused on meaningful social interactions using RedisGraph", // One line description
+  "rank": "51",
   "type": "Full App", //Can be "Building Block" or "Full App"
   "contributed_by": "Community", // Can be "Redis Labs" or "Community" or "Partner"
   "repo_url": "https://github.com/redis-developer/letus", //This is the Gitub Repo's URL.
