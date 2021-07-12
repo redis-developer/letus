@@ -32,7 +32,7 @@
     "UNWIND",
     "WITH"
   ], 
-  "redis_features": ["cloud"], 
+  "redis_features": [], 
   "redis_modules": ["RedisGraph"], 
   "app_image_urls": [
     "https://github.com/withjam/letus/raw/main/screens/letus_cropped.jpg",
