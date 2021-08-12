@@ -2,6 +2,7 @@
   "app_name": "Letus", 
   "description": "A social media app focused on meaningful social interactions",
   "type": "Full App",
+  "hidden": "true",
   "contributed_by": "Community", 
   "repo_url": "https://github.com/redis-developer/letus", 
   "preview_image_url": "https://raw.githubusercontent.com/redis-developer/letus/master/images/app_preview_image.png",
