@@ -1,21 +1,11 @@
 {
-  "app_name": "Letus - A Real Social Media App", 
-  "description": "A social media app focused on meaningful social interactions using RedisGraph", 
-  "rank": "51",
-  "type": "Full App", 
+  "app_name": "Letus", 
+  "description": "A social media app focused on meaningful social interactions",
+  "type": "Full App",
   "contributed_by": "Community", 
   "repo_url": "https://github.com/redis-developer/letus", 
-  "download_url": "https://github.com/redis-developer/letus/archive/refs/heads/main.zip", 
-  "hosted_url": "",
-  "quick_deploy": "false",
-  "deploy_buttons": [
-        {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/letus.git" 
-        },
-        {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/letus.git" 
-        }
-    ],
+  "download_url": "", 
+  "quick_deploy": "false", 
   "language": ["JavaScript"], 
   "redis_commands": [
     "MATCH",
@@ -33,13 +23,13 @@
     "WITH"
   ], 
   "redis_features": [], 
-  "redis_modules": ["RedisGraph"], 
+  "redis_modules": ["RedisGraph"],
   "app_image_urls": [
-    "https://github.com/withjam/letus/raw/main/screens/letus_cropped.jpg",
-    "https://github.com/withjam/letus/raw/main/screens/posts.png",
-    "https://github.com/withjam/letus/raw/main/screens/ignoreSettings4.png"
+    "https://github.com/redis-developer/letus/raw/main/screens/letus_cropped.jpg",
+    "https://github.com/redis-developer/letus/raw/main/screens/posts.png",
+    "https://github.com/redis-developer/letus/raw/main/screens/ignoreSettings4.png"
   ], 
-  "youtube_url": "https://www.youtube.com/watch?v=FmgdHGFYj3U", 
+  "youtube_url": "https://www.youtube.com/watch?v=MDlebl9tkd0",
   "special_tags": ["Hackathon"], 
   "verticals": ["Technology"], 
   "markdown": "https://raw.githubusercontent.com/redis-developer/letus/main/README.md" 
