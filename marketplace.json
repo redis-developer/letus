@@ -33,8 +33,8 @@
     "UNWIND",
     "WITH"
   ], 
-  "redis_features": [], 
-  "redis_modules": ["RedisGraph"],
+  "redis_use_cases": [], 
+  "redis_features": ["Graph"],
   "app_image_urls": [
     "https://github.com/redis-developer/letus/raw/main/screens/letus_cropped.jpg",
     "https://github.com/redis-developer/letus/raw/main/screens/posts.png",
